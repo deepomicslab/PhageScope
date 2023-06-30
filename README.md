@@ -8,8 +8,8 @@ Key features of PhageScope:
 + Automatic phage annotation and analysis with state-of-the-art tools, including completeness scoring, host assignment, lifestyle prediction, ORF and terminator localization, functional gene annotation, genome clustering and comparison, etc. 
 + Interactive visualization of phenotype distribution, structural and functional annotation, genome comparison, phylogenetic tree, etc.
 
-![image](https://github.com/wangruohan111/PhageScope_documents/blob/main/Figures/database.png)
+![image](https://github.com/deepomicslab/PhageScope_documents/blob/main/Figures/database.png)
 
-![image](https://github.com/wangruohan111/PhageScope_documents/blob/main/Figures/analysis.png)
+![image](https://github.com/deepomicslab/PhageScope_documents/blob/main/Figures/analysis.png)
 
-![image](https://github.com/wangruohan111/PhageScope_documents/blob/main/Figures/visualization.png)
+![image](https://github.com/deepomicslab/PhageScope_documents/blob/main/Figures/visualization.png)
