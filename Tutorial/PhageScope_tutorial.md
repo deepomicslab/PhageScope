@@ -7,19 +7,19 @@ We have performed an exhaustive search for phage sequences across multiple publi
 
 To provide comprehensive and accurate annotations for the collected phage sequences, we applied thirteen state-of-the-art tools to give completeness assessment, phenotype annotation (host and lifestyle), structural annotation (ORFs, proteins, and terminators), functional annotation (tRNA & tmRNA, Anti-CRISPR protein, CRISPR array, and transmembrane proteins), and sequence comparison (clustering, alignment, and phylogenetic tree) for the phage sequences. The 441,637 phage sequences, along with their annotation information, are available in PhageScope. 
 
-![image](https://github.com/wangruohan111/PhageScope_documents/blob/main/Figures/database.png)
+![image](https://github.com/deepomicslab/PhageScope/blob/main/Figures/database.png)
 
 
 ## Analysis
 We also provide the annotation pipelines for users to analyze their customized data. Users can upload single or multiple phage sequences in fasta format and run the complete or partial annotation steps. The complete workflow includes completeness assessment, phenotype annotation, structural annotation, and functional annotation, as described above. For multiple sequences, genome comparison pipelines are provided. PhageScope platform performs automatic analysis and returns results that can be visualized and downloaded.  
 
-![image](https://github.com/wangruohan111/PhageScope_documents/blob/main/Figures/analysis.png)
+![image](https://github.com/deepomicslab/PhageScope/blob/main/Figures/analysis.png)
 
 
 ## Visualization
 Additionally, PhageScope supports interactive visualization of the curated database and customized analysis results. Specifically, PhageScope generates completeness and phenotype distribution charts, graphical annotation, multiple sequence alignment visualizations, and phylogenetic tree visualizations. All visualizations can be downloaded in high-quality publication-ready format.  
 
-![image](https://github.com/wangruohan111/PhageScope_documents/blob/main/Figures/visualization.png)
+![image](https://github.com/deepomicslab/PhageScope/blob/main/Figures/visualization.png)
 
 
 # Contact us
