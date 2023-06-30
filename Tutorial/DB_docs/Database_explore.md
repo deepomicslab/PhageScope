@@ -4,10 +4,10 @@ PhageScope Datasets is a comprehensive resource that provides access to a wide r
 ## Overview
 The ``Overview`` interface gives users a brief introduction to the PhageScope Database along with some statistics on the phage sequences, host information, annotated proteins, and other functional items.
 
-<div align=center><img src="https://github.com/deepomicslab/PhageScope/tree/main/Tutorial/DB_docs/DB_figures/overview1.png" width="1000"></div>
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/overview1.png" width="1000"></div>
 
 The interface also provides overview visualizations, such as bar plot, pie chart, and tree chart, to showcase the distributions of phage source, sequence completeness, and phage lifestyle.  
-<div align=center><img src="https://github.com/deepomicslab/PhageScope/tree/main/Tutorial/DB_docs/DB_figures/overview2.png" width="1000"></div>
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/overview2.png" width="1000"></div>
 
 ## Phage list
 The "Phage List" interface allows you to access and download phage sequences and meta information. To access this interface, click on the "Phage List" option in the navigation bar.

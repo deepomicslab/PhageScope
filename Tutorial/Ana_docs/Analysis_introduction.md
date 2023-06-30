@@ -1,6 +1,6 @@
 # Welcome to PhageScope analysis
 
-![image](https://github.com/wangruohan111/PhageScope_documents/blob/main/Figures/analysis.png)
+![image](https://github.com/deepomicslab/PhageScope/blob/main/Figures/analysis.png)
 
 ## Analysis description
 PhageScope analysis module includes **single genome annotation** and **multiple genome comparison**. Genome annotation includes **completeness assessment**, **phenotype annotation** (host assignment and lifestyle prediction), **structural annotation** (ORF prediction, protein classification, and transcription terminator annotation), **functional annotation** (tRNA & tmRNA gene annotation, anti-CRISPR protein annotation, CRISPR array annotation, and transmembrane protein annotation). Genome comparison includes **sequence clustering**, **sequence alignment**, and **phylogenetic tree construction**.
