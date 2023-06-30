@@ -15,5 +15,5 @@ Key features of PhageScope:
 ![image](https://github.com/deepomicslab/PhageScope/blob/main/Figures/visualization.png)
 
 # Contact
-Please open an issue if you have problems with PhageScope. 
+Please open an issue if you have problems with PhageScope.  
 Dr LI, Shuai Cheng Email: shuaicli@cityu.edu.hk
