@@ -45,4 +45,3 @@ Filtering Options: You can apply filters to the available phage sequences based 
 
 Download Filtered Data: Once you have applied the desired filters, you can download the filtered phage sequences and associated information.
 
-**Happy exploring!**
