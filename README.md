@@ -1,5 +1,5 @@
 # PhageScope
-Welcome to PhageScope! PhageScope is an online bacteriophage database that offers comprehensive genome annotations, including completeness assessment, phenotype annotation, structural annotation, functional annotation, and genome comparison.
+Welcome to [PhageScope](https://phagescope.deepomics.org/)! PhageScope is an online bacteriophage database that offers comprehensive genome annotations, including completeness assessment, phenotype annotation, structural annotation, functional annotation, and genome comparison.
 
 PhageScope incorporates automatic analysis and interactive visualization for both curated and customized data.
 
@@ -8,8 +8,8 @@ Key features of PhageScope:
 + Automatic phage annotation and analysis with state-of-the-art tools, including completeness scoring, host assignment, lifestyle prediction, ORF and terminator localization, functional gene annotation, genome clustering and comparison, etc. 
 + Interactive visualization of phenotype distribution, structural and functional annotation, genome comparison, phylogenetic tree, etc.
 
-![image](https://github.com/deepomicslab/PhageScope_documents/blob/main/Figures/database.png)
+![image](https://github.com/deepomicslab/PhageScope/blob/main/Figures/database.png)
 
-![image](https://github.com/deepomicslab/PhageScope_documents/blob/main/Figures/analysis.png)
+![image](https://github.com/deepomicslab/PhageScope/blob/main/Figures/analysis.png)
 
-![image](https://github.com/deepomicslab/PhageScope_documents/blob/main/Figures/visualization.png)
+![image](https://github.com/deepomicslab/PhageScope/blob/main/Figures/visualization.png)
