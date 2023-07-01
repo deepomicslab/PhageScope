@@ -3,7 +3,7 @@
 ![image](https://github.com/deepomicslab/PhageScope/blob/main/Figures/database.png)
 
 ## Data description
-PhageScope database contains **441,637** phage sequences from various sources, including **4,637** sequences from **RefSeq** [1], **2,086** sequences from **Genbank** [2], **156** sequences from **EMBL** [3], **290** sequences from **DDBJ** [4], **3,754** sequences from **PhagesDB** [5], **31,402** sequences from **GVD** [6], **142,809** sequences from **GPD** [7], **189,680** sequences from MGV [8], and **66,823** sequences from **TemPhD** [9].   
+PhageScope database contains **441,637** phage sequences from various sources, including **4,637** sequences from **RefSeq** [1], **2,086** sequences from **Genbank** [2], **156** sequences from **EMBL** [3], **290** sequences from **DDBJ** [4], **3,754** sequences from **PhagesDB** [5], **31,402** sequences from **GVD** [6], **142,809** sequences from **GPD** [7], **189,680** sequences from **MGV** [8], and **66,823** sequences from **TemPhD** [9].   
 
 Applying multiple state-of-the-art tools to analysing the phage sequences, we obtained **comprehensive annotations** for the phages.
 
