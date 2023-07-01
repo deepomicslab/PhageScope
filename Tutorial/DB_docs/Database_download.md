@@ -1,15 +1,15 @@
 # How to download PhageScope datasets
 
 ## Phage sequence download
-<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/phage_list_download.png" width="800"></div>
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/phage_list_download.png" width="1000"></div>
 
 Users could be directed to the ``Phage List`` interface by clicking ``Database`` on the navigation bar. On the ``Phage List`` interface, users could scroll through the list of phages or use the ``sequence filter`` to find specific phages.  
  
-<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/sequence_filter.png" width="600"></div>
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/sequence_filter.png" width="1000"></div>
 
 After selecting the phages, please click on the ``Download`` button. A popup would appear, allowing users to choose the desired format for download. Phage sequences and information are provided in **FASTA**, **GFF3**, **GBK**, and **tabular** (Meta data) format. The phage sequences and information will be saved to users' device in the chosen format.  
 
-<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/datatype_selection.png" width="600"></div>
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/datatype_selection.png" width="1000"></div>
 
 ## Batch download 
 PhageScope also provides a batch download interface for users to retrieve data, including the phage metadata, protein metadata, transcription terminator metadata, tRNA & tmRNA gene metadata, anti-CRISPR protein metadata, CRISPR array metadata, transmembrane protein metadata, phage sequences in fasta format, protein sequences in fasta format, phage annotations in gbk/gff3 file. Users could click ``Download`` on the navigation bar to enter the download interface.  
@@ -149,4 +149,4 @@ PhageScope also provides a batch download interface for users to retrieve data, 
 + ``TemPhD Phage GFF3 File``: Phage annotations from TemPhD in GFF3 format.
 
 ## Database API download
-PhageScope also allows API download with ``phage_ID``, ``protein_ID``, and ``data source``.
+PhageScope also allows API download indexed with ``phage_ID``, ``protein_ID``, and ``data source``.
