@@ -148,5 +148,5 @@ PhageScope also provides a batch download interface for users to retrieve data, 
 + ``MGV Phage GFF3 File``: Phage annotations from MGV in GFF3 format.
 + ``TemPhD Phage GFF3 File``: Phage annotations from TemPhD in GFF3 format.
 
-## Database API download
-PhageScope also allows API download indexed with ``phage_ID``, ``protein_ID``, and ``data source``.
+<p>## Database API download</p>
+<p>PhageScope also allows API download indexed with ``phage_ID``, ``protein_ID``, and ``data source``.</p>
