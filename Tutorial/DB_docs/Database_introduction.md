@@ -30,7 +30,10 @@ The phage sequences from RefSeq, Genbank, EMBL, and DDBJ come with these genetic
 ### Terminators
 Terminators are specific DNA sequences that indicate the end of a gene or a functional genetic region. The annotation of terminators provides information about the locations where the genes or functional regions within the phage genomes end. This information is valuable for accurately determining the boundaries of genes, regulatory regions, or other functional elements in the phage genomes.  
 
-We employed **TransTermHP** [19] to predict transcription terminators within the phage genomes, resulting in a comprehensive collection of **3,912,546** terminators derived from the phage sequences.
+We employed **TransTermHP** [19] to predict transcription terminators within the phage genomes, resulting in a comprehensive collection of **3,912,546** terminators derived from the phage sequences.  
+
+### Taxonomy
+To determine the taxonomic classification for phages, 30,553 taxonomy-specific VOGs from eight taxonomical groups were selected as the marker genes. For each phage, we applied HMMsearch to align its encoded proteins to the VOGs and assigned it to the taxonomical group with the most HMM hits.  
 
 ### tRNA & tmRNA genes
 tRNA and tmRNA genes encode RNA molecules that play essential roles in protein synthesis and quality control, respectively. The identification and annotation of tRNA and tmRNA genes indicate the presence of these functional elements within the phage genomes. By studying these genes, users can gain insights into the phage's ability to manipulate the host's protein synthesis machinery and potentially identify mechanisms to evade host defenses or manipulate host cellular functions.  
@@ -78,14 +81,14 @@ We applied **TMHMM** [27] to the phage protein sequences from the PhageScope dat
 [14] WANG R, Ng Y K, Zhang X, et al. A graph representation of gapped patterns in phage sequences for graph convolutional network[J]. bioRxiv, 2022: 2022.08. 22.504727.  
 [15] Hyatt D, Chen G L, LoCascio P F, et al. Prodigal: prokaryotic gene recognition and translation initiation site identification[J]. BMC bioinformatics, 2010, 11(1): 1-11.    
 [16] Cantalapiedra C P, Hernandez-Plaza A, Letunic I, et al. eggNOG-mapper v2: functional annotation, orthology assignments, and domain prediction at the metagenomic scale[J]. Molecular biology and evolution, 2021, 38(12): 5825-5829.  
-[17] Steinegger M, S?ding J. MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets[J]. Nature biotechnology, 2017, 35(11): 1026-1028. 
-[18] Terzian P, Olo Ndela E, Galiez C, et al. PHROG: families of prokaryotic virus proteins clustered using remote homology[J]. NAR Genomics and Bioinformatics, 2021, 3(3): lqab067. 
+[17] Steinegger M, Sding J. MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets[J]. Nature biotechnology, 2017, 35(11): 1026-1028.  
+[18] Terzian P, Olo Ndela E, Galiez C, et al. PHROG: families of prokaryotic virus proteins clustered using remote homology[J]. NAR Genomics and Bioinformatics, 2021, 3(3): lqab067.   
 [19] Ermolaeva M D, Khalak H G, White O, et al. Prediction of transcription terminators in bacterial genomes[J]. Journal of molecular biology, 2000, 301(1): 27-33.  
 [20] Laslett D, Canback B. ARAGORN, a program to detect tRNA genes and tmRNA genes in nucleotide sequences[J]. Nucleic acids research, 2004, 32(1): 11-16.  
-[21] Lowe T M, Eddy S R. tRNAscan-SE: a program for improved detection of transfer RNA genes in genomic sequence[J]. Nucleic acids research, 1997, 25(5): 955-964. 
+[21] Lowe T M, Eddy S R. tRNAscan-SE: a program for improved detection of transfer RNA genes in genomic sequence[J]. Nucleic acids research, 1997, 25(5): 955-964.  
 [22] Dong C, Hao G F, Hua H L, et al. Anti-CRISPRdb: a comprehensive online resource for anti-CRISPR proteins[J]. Nucleic acids research, 2018, 46(D1): D393-D398.  
 [23] Eitzinger S, Asif A, Watters K E, et al. Machine learning predicts new anti-CRISPR proteins[J]. Nucleic acids research, 2020, 48(9): 4698-4708.  
 [24] Couvin D, Bernheim A, Toffano-Nioche C, et al. CRISPRCasFinder, an update of CRISRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins[J]. Nucleic acids research, 2018, 46(W1): W246-W251.  
 [25] Chen L, Yang J, Yu J, et al. VFDB: a reference database for bacterial virulence factors[J]. Nucleic acids research, 2005, 33(suppl\_1): D325-D328.  
 [26] McArthur A G, Waglechner N, Nizam F, et al. The comprehensive antibiotic resistance database[J]. Antimicrobial agents and chemotherapy, 2013, 57(7): 3348-3357.  
-[27] Krogh A, Larsson B, Von Heijne G, et al. Predicting transmembrane protein topology with a hidden Markov model: application to complete genomes[J]. Journal of molecular biology, 2001, 305(3): 567-580.
+[27] Krogh A, Larsson B, Von Heijne G, et al. Predicting transmembrane protein topology with a hidden Markov model: application to complete genomes[J]. Journal of molecular biology, 2001, 305(3): 567-580.  
