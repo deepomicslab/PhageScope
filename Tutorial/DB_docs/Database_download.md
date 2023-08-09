@@ -101,7 +101,7 @@ PhageScope also provides a batch download interface for users to retrieve data, 
 + ``TemPhD Phage Virulent Factor Meta Data``: The metadata for the 21,865 virulent factors from TemPhD.
 
 #### Antimicrobial resistance gene meta data download
-+ ``All Phage Antimicrobial Resistance Gene Meta Data``: The metadata for all the 2,004 antimicrobial resistance genes. Each row gives the information for an antimicrobial resistance gene; The columns give information about the phage ID (Phage\_ID), protein ID (Protein\_ID), aligned protein ID in CARD (Aligned\_Protein\_in\_CARD), and the phage source dataset (Phage\_source)..
++ ``All Phage Antimicrobial Resistance Gene Meta Data``: The metadata for all the 2,004 antimicrobial resistance genes. Each row gives the information for an antimicrobial resistance gene; The columns give information about the phage ID (Phage\_ID), protein ID (Protein\_ID), aligned protein ID in CARD (Aligned\_Protein\_in\_CARD), and the phage source dataset (Phage\_source).
 + ``RefSeq Phage Antimicrobial Resistance Gene Meta Data``: The metadata for the 10 antimicrobial resistance genes from RefSeq.
 + ``Genbank Phage Antimicrobial Resistance Gene Meta Data``: The metadata for the 7 antimicrobial resistance genes from Genbank.
 + ``GVD Phage Antimicrobial Resistance Gene Meta Data``: The metadata for the 35 antimicrobial resistance genes from GVD.
