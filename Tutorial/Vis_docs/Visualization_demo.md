@@ -1,6 +1,6 @@
 # How to perform PhageScope visualizations
 
-PhageScope offers interactive visualizations for the curated data and the analysis results from customized phages. The visualizations, which support informative tooltips to deliver detailed introductions and information, are prepared in an optional format with high quality, making them seamlessly incorporated into academic publications.  
+PhageScope offers interactive visualizations for curated database and customized analysis results. The visualizations, which support informative tooltips to deliver detailed introductions and information, are prepared in an optional format with high quality, making them seamlessly incorporated into academic publications.  
 
 We provide some demo visualizations in this tutorial.  
 
