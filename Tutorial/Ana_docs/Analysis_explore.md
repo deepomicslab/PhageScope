@@ -9,7 +9,7 @@ Click ``Genome Annotation`` button and perform genome annotation. Users can run 
 
 To input phage sequences, users can upload their FASTA file with single or multiple phage sequences, enter the phage ID in PhageScope database, or paste the sequence directly. Then users can select the analysis modules according to their needs. Brief introductions to the modules are provided for reference.   
 
-<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/Ana_docs/Ana_figures/annotation_input.png" width="1000"></div>
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/Ana_docs/Ana_figures/annotation_modules.png" width="1000"></div>
 
 After clicking the ``Submit`` button, users would be directed to the workspace. Also, they can enter the workspace from ``Workspace`` on the navigation bar to check the status of their submitted tasks. 
 
@@ -22,6 +22,7 @@ When the task is completed, the status would change from ``Running`` to ``Succes
 An overview of the analysis results are provided on the page with downloadable tables and visualizations. Users can click their selected modules above to obtain more details.
 
 <div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/Ana_docs/Ana_figures/annotation_result2.png" width="1000"></div>
+
 
 ## Genome Comparison
 
