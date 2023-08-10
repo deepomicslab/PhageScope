@@ -33,7 +33,7 @@ Users can click the ``Detail`` button to check the annotation results and visual
 ## Genome Comparison
 For genome comparison, users should upload FASTA file with multiple phage sequences or paste multiple sequences to the text fields. Then they can select the modules.
 
-<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/Ana_docs/Ana_figures/comparison_modules" width="800"></div>
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/Ana_docs/Ana_figures/comparison_modules.png" width="800"></div>
 
 After the task is completed, users can get access to the genome comparison results from the workspace.
 
