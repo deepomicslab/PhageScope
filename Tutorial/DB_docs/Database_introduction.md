@@ -25,7 +25,7 @@ The phages from the TemPhD dataset are temperate phages according to their phage
 ### ORF & annotated protein
 ORF stands for Open Reading Frame and represents a region of DNA that has the potential to be translated into a protein. In PhageScope, Information about ORFs and annotated proteins provides insights into the predicted genes and their corresponding proteins within the phage genomes. These annotations are crucial for understanding the genetic content of phages, identifying potential virulence factors, and exploring the functional diversity encoded in their genomes.  
 
-The phage sequences from RefSeq, Genbank, EMBL, and DDBJ come with these genetic features annotated. For the phages sourced from PhagesDB, GVD, GPD, MGV, and TemPhD, we first applied **Prodigal** [15] to identify the ORFs and obtained **23,424,959** proteins, and then employed **eggNOG-mapper** [16] to annotate the protein functions by assigning orthology. For proteins lacked hits, we iteratively applied **mmseqs** [17] to detect homology from the PHROG database [18], and then annotated the proteins with the functional information from the homology. The proteins were categorized into ten types, including **lysis (1,116,703)**, **integration (993,230)**, **replication (2,411,701)**, **tRNA-related (131,772)**, **regulation (1,525,180)**, **packaging (1,198,973)**, **assembly (3,672,753)**, **infection (2,456,638)**, **immune (478,596)**, and **hypothetical (1,336,750)**, based on key word searches.
+The phage sequences from RefSeq, Genbank, EMBL, and DDBJ come with these genetic features annotated. For the phages sourced from PhagesDB, GVD, GPD, MGV, and TemPhD, we first applied **Prodigal** [15] to identify the ORFs and obtained **23,424,959** proteins, and then employed **eggNOG-mapper** [16] to annotate the protein functions by assigning orthology. For proteins that lacked hits, we iteratively applied **mmseqs** [17] to detect homology from the PHROG database [18], and then annotated the proteins with the functional information from the homology. The proteins were categorized into ten types, including **lysis (1,116,703)**, **integration (993,230)**, **replication (2,411,701)**, **tRNA-related (131,772)**, **regulation (1,525,180)**, **packaging (1,198,973)**, **assembly (3,672,753)**, **infection (2,456,638)**, **immune (478,596)**, and **hypothetical (1,336,750)**, based on key word searches.
 
 ### Terminators
 Terminators are specific DNA sequences that indicate the end of a gene or a functional genetic region. The annotation of terminators provides information about the locations where the genes or functional regions within the phage genomes end. This information is valuable for accurately determining the boundaries of genes, regulatory regions, or other functional elements in the phage genomes.  
@@ -57,12 +57,16 @@ In order to investigate the CRISPR array contained within the PhageScope databas
 ### Virulent factors and Antimicrobial resistance genes
 The identification of virulent factors and antimicrobial resistance genes is essential for understanding the pathogenicity and antimicrobial susceptibility patterns of microorganisms.  
 
-We employed **mmseqs** [17] to conduct homology search for the phage proteins against **VFDB** [25] and **CARD** [26]. Virulence factor or antimicrobial resistance genes are identified on phage genomes if the match met the thresholds of > 80% identity and > 40% coverage.  
+We employed **mmseqs** [17] to conduct homology search for the phage proteins against **VFDB** [25] and **CARD** [26]. Virulence factor or antimicrobial resistance genes are identified on phage genomes if the match meets the thresholds of > 80% identity and > 40% coverage.  
 
 ### Transmembrane proteins
 Transmembrane proteins are proteins that span the lipid bilayer of cell membranes. The annotation of transmembrane proteins provides information on the presence and characteristics of such proteins within the phage genomes. These annotations offer insights into the potential interactions between phages and host cell membranes, their roles in phage infection and release, and the exploitation of host cellular processes by phages.  
 
 We applied **TMHMM** [27] to the phage protein sequences from the PhageScope database. A total of **2,189,636** proteins were identified as helical membrane proteins, exhibiting **1-48 transmembrane helices**. The resultant set of transmembrane proteins, coupled with their corresponding **topology information**, has been made accessible through the PhageScope database.
+
+### Comparative genomic studies
+Comparative genomic studies, including sequence clustering, sequence alignment, and comparative tree construction, are also provided for the curated phages.
+
 
 ## Citation
 [1] O'Leary N A, Wright M W, Brister J R, et al. Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation[J]. Nucleic acids research, 2016, 44(D1): D733-D745.  
