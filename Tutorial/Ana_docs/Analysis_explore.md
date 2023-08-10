@@ -19,9 +19,15 @@ When the task is completed, the status would change from ``Running`` to ``Succes
 
 <div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/Ana_docs/Ana_figures/annotation_result1.png" width="800"></div>
 
-An overview of the analysis results are provided on the page with downloadable tables and visualizations. Users can click their selected modules above to obtain more details.
+An overview of the analysis results for all the inputed phages are provided on the page with downloadable tables and visualizations. Users can click their selected modules above to obtain more details.
 
 <div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/Ana_docs/Ana_figures/annotation_result2.png" width="800"></div>
+
+Users can click the ``Detail`` button to check the annotation results and visualizations for the individual phage.  
+
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/Ana_docs/Ana_figures/annotation_ind1.png" width="800"></div>
+
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/Ana_docs/Ana_figures/annotation_ind2.png" width="800"></div>
 
 
 ## Genome Comparison
