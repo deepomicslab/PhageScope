@@ -23,7 +23,7 @@ Additionally, PhageScope supports interactive visualization of the curated datab
 
 
 # Contact us
-Dr. LI, Shuai Cheng  
+Prof. LI, Shuai Cheng  
 shuaicli@cityu.edu.hk  
 Department of Computer Science  
 City University of Hong Kong  
