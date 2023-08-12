@@ -22,7 +22,7 @@ We provide some demo visualizations in this tutorial.
 + **The PhageScope visualization of the sequence alignment.** PhageScope provides the linear (**a**) and circular (**b**) alignment visualizations. The color depth of the gray strips indicates the alignment coverage, whereas the color depth of the vertical blocks indicates the alignment identity.
 <div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/Vis_docs/Vis_figures/AlignDemo.png" width="600"></div>
 
-+ **The PhageScope visualization of the comparative tree.** The colors of the outermost circle denote the phage cluster, whereas the colors of the leaf node denote the phage subcluster.
++ **The PhageScope visualization of the comparative tree.** The colors of the circles from outer to inner denote the phage lifestyle, host, and cluster. The colors of the leaf node denote the phage subcluster.
 <div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/Vis_docs/Vis_figures/TreeDemo.png" width="600"></div>
 
 + **The PhageScope visualization of the comparative tree with protein functional class annotated.** PhageScope also provides visualizations incorporating protein annotation and comparative tree.
