@@ -4,7 +4,7 @@ Welcome to [PhageScope](https://phagescope.deepomics.org/)! PhageScope is an onl
 PhageScope incorporates automatic analysis and interactive visualization for both curated and customized data.
 
 Key features of PhageScope:
-+ Curated PhageScope database includes 441,637 phage sequences from 2,214 host species, harboring 23,424,959 annotated proteins, 3,912,546 terminators, 480,343 tRNA genes, 6,153 tmRNA genes, 241,377 anti-CRISPR proteins, 32,472 CRISPR arrays, 23,349 virulent factors, 2,004 antimicrobial resistance genes, and 2,189,636 transmembrane proteins. 
++ Curated PhageScope database includes 873,718 phages, with 767,797 nonredundant sequences, from 4,723 host species, harboring 43,088,582 annotated proteins, 6,462,417 terminators, 691,091 tRNA genes, 11,516 tmRNA genes, 307,329 anti-CRISPR proteins, 56,652 CRISPR arrays, 41,609 virulent factors, 2,602 antimicrobial resistance genes, and 4,020,770 transmembrane proteins. 
 + Automatic phage annotation and analysis with state-of-the-art tools, including completeness scoring, host assignment, lifestyle prediction, taxonomic classification, ORF and terminator localization, functional gene annotation, genome clustering, and sequence comparison, etc.
 + Interactive visualization of completeness and phenotype distribution, structural and functional annotation, sequence alignment, comparative tree, etc. 
 
