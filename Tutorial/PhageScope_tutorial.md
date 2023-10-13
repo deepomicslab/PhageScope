@@ -1,9 +1,9 @@
 # Welcome to PhageScope
 
-[PhageScope](https://phagescope.deepomics.org/) is an online bacteriophage database, including 441,637 phage sequences with comprehensive annotations. PhageScope incorporates automatic analysis and interactive visualization.
+[PhageScope](https://phagescope.deepomics.org/) is an online bacteriophage database, including 873,718 phage sequences with comprehensive annotations. PhageScope incorporates automatic analysis and interactive visualization.
 
 ## Database
-We have performed an exhaustive search for phage sequences across multiple public repositories (such as RefSeq, Genbank, EMBL, and DDBJ) and published datasets (such as PhagesDB, GVD, GPD, MGV, and TemPhD). As a result, we have gathered a dataset comprising 441,637 phage sequences, only a tiny fraction of which have annotation information available, such as host taxonomy, lifestyle, and genetic features.
+We have performed an exhaustive search for phage sequences across multiple public repositories (such as RefSeq, Genbank, EMBL, and DDBJ) and published datasets (such as PhagesDB, GOV2, GVD, GPD, MGV, CHVD, STV, TemPhD, IGVD and IMG/VR). As a result, we have gathered a dataset comprising 441,637 phage sequences, only a tiny fraction of which have annotation information available, such as host taxonomy, lifestyle, and genetic features.
 
 To provide comprehensive and accurate annotations for the collected phage sequences, we applied fifteen state-of-the-art tools to give completeness assessment, phenotype annotation (host and lifestyle), structural annotation (ORFs, proteins, and terminators), taxonomic annotation, functional annotation (tRNA & tmRNA, Anti-CRISPR protein, CRISPR array, virulent factors, antimicrobial resistance genes, and transmembrane proteins), and sequence comparison (genome clustering, sequence alignment, and comparative tree) for the phage sequences. The 441,637 phage sequences, along with their annotated information, are available in PhageScope. 
 
