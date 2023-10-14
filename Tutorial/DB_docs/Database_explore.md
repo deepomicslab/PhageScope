@@ -44,6 +44,7 @@ The "Structural Annotation Data" interface provides access to the proteins and t
 + Download: Download the protein sequence in FASTA format.
 
 ### Transcription Terminator List
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/terminator_list.png" width="1000"></div>
 + Detail: Access the basic information of the chosen transcription terminator.
 + Download: Download the transcription terminator sequence in FASTA format.
 
@@ -52,29 +53,35 @@ The "Structural Annotation Data" interface provides access to the proteins and t
 The "Functional Annotation Data" interface provides access to the functional elements derived from the phage genomes.
 
 ### tRNA & tmRNA Gene List
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/trna_list.png" width="1000"></div>
 + Detail: Access the basic information of the chosen tRNA or tmRNA.
 + Download: Download the tRNA or tmRNA sequence in FASTA format.
 
 ### Anti-CRISPR Protein List
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/anticrispr_list.png" width="1000"></div>
 + Detail: Access the basic information of the chosen anti-CRISPR protein.
 + Download: Download the anti-CRISPR protein sequence in FASTA format.
 + View protein: Access the protein information from structural annotation.
 
 ### CRISPR Array List
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/crispr_list.png" width="1000"></div>
 + Detail: Access the basic information of the chosen CRISPR array.
 + Download: Download the CRISPR array in FASTA format.
 
 ### Virulent Factor List
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/vf_list.png" width="1000"></div>
 + Detail: Access the basic information of the chosen virulent factor.
 + Download: Download the virulent factor sequence in FASTA format.
 + View protein: Access the protein information from structural annotation.
 
 ### Antimicrobial Resistance Gene List
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/arg_list.png" width="1000"></div>
 + Detail: Access the basic information of the chosen antimicrobial resistance gene.
 + Download: Download the antimicrobial resistance gene sequence in FASTA format.
 + View protein: Access the protein information from structural annotation.
 
 ### Transmembrane Protein List
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/transmem.png" width="1000"></div>
 + Detail: Access the basic information of the chosen transmembrane protein.
 + Download: Download the transmembrane protein sequence in FASTA format.
 
