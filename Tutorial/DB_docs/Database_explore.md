@@ -13,27 +13,33 @@ The interface also provides overview visualizations, such as bar plot, pie chart
 <div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/overview3.png" width="1000"></div>
 
 ## Phage List
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/phage_list.png" width="1000"></div>
 The "Phage List" interface allows users to access and download phage sequences and meta information. 
 
 + Detail: Access the basic information and genetic annotations of the chosen phages, with interactive visualizations.
 + Download: Download the chosen phages with a user-selected data type.
 
 ## Host List
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/host_list1.png" width="1000"></div>
 The "Host List" interface provides information about the hosts that phages infect. To access this interface, click on the "Host List" option in the navigation bar.  
 
 + View: Access the phages with the selected host range. 
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/host_list2.png" width="1000"></div>
 
 ## Cluster List
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/cluster_list1.png" width="1000"></div>
 The "Cluster List" interface allows you to explore phage clusters, which are groups of phages that share genetic similarities. To access this interface, click on the "Cluster List" option in the navigation bar.  
 
 + Detail: Access the memeber information and the comparative genomic studies of the chosen cluster.
 + Download: Download the phages within the chosen cluster with a user-selected data type.
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/cluster_list2.png" width="1000"></div>
  
 
 ## Structural Annotation Data
 The "Structural Annotation Data" interface provides access to the proteins and terminators derived from the phage genomes.  
 
 ### Annotated Protein List
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/protein_list.png" width="1000"></div>
 + Detail: Access the basic information of the chosen protein.
 + Download: Download the protein sequence in FASTA format.
 
