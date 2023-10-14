@@ -10,6 +10,8 @@ The interface also provides overview visualizations, such as bar plot, pie chart
 
 <div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/overview2.png" width="1000"></div>
 
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/DB_docs/DB_figures/overview3.png" width="1000"></div>
+
 ## Phage List
 The "Phage List" interface allows users to access and download phage sequences and meta information. 
 
