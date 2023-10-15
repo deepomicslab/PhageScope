@@ -35,7 +35,7 @@ These annotations provide valuable insights into the genome structure, genetic c
 These modules return the identified items, along with their related information, such as locations, confidence scores, and molecular types. The annotations reveal crucial information about phage-host interactions, potential mechanisms of phage evasion, and exploitation of host cellular processes.  
 
 ### Genome comparison
-The genome comparison analysis module of PhageScope allows users to compare and analyze multiple phage genomes. It provides various analysis and visualization functions to explore the genetic variations and evolutionary relationships among these genomes.  
+The genome comparison analysis module of PhageScope allows users to compare and analyze multiple phage genomes. It provides various analysis and visualization functions to explore the genetic variations and evolutionary relationships among these genomes. PhageScope provides an option for users to incorporat the curated phages into genome comparison pipelines.  
 
 #### Sequence clustering
 This module groups phage genomes based on their sequence similarity with **mmseqs** [8], identifying clusters of phages that share common genetic characteristics. ``min-seq-id 0.9`` and ``-c 0.9`` are required to form **subclusters**, and the representative sequences for subclusters are grouped into **clusters** with the hyperparameters ``min-seq-id 0.6`` and ``-c 0.75``.
