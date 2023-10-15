@@ -31,10 +31,22 @@ Users can click the ``Detail`` button to check the annotation results and visual
 
 
 ## Genome Comparison
-For genome comparison, users should upload FASTA file with multiple phage sequences or paste multiple sequences to the text fields. Then they can select the modules.
+For genome comparison, users should upload FASTA file with multiple phage sequences or paste multiple sequences to the text fields.  
+
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/Ana_docs/Ana_figures/comparison_input.png" width="800"></div>
+
+Then users can select specific modules to perform analyses.  
 
 <div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/Ana_docs/Ana_figures/comparison_modules.png" width="800"></div>
 
-After the task is completed, users can get access to the genome comparison results from the workspace.
+PhageScope provides an option for users to incorporate the curated phages into genome comparison pipelines. Filtering options are available to select the curated sequences for comparison based on specific criteria such as sequence quality, length range, and phage lifestyle.
 
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/Ana_docs/Ana_figures/comparison_modules.png" width="800"></div>
 
+After the task is completed, users can get access to the genome comparison results from the workspace. Sequence alignment plots and comparative trees are available for the clustering results.
+
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/Ana_docs/Ana_figures/comparison_modules.png" width="800"></div>
+
+In our demonstration, we showcase the query phages (shown in red), as well as the phages from the PhageScope database that are clustered together with queries (shown in blue).  
+
+<div align=center><img src="https://github.com/deepomicslab/PhageScope/blob/main/Tutorial/Ana_docs/Ana_figures/comparison_modules.png" width="800"></div>
