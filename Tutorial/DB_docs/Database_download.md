@@ -18,7 +18,7 @@ PhageScope also provides a batch download interface for users to retrieve data, 
 
 ### Meta data download
 #### Phage meta data download
-+ ``All Phage Meta Data``: The metadata for all the 873,718 phages. Each row gives the information for a phage; The columns give information about phage ID (Phage\_ID), phage genome length (Length), phage GC content (GC\_content), the taxonomy (Taxonomy), genome completeness (Completeness), phage host taxonomy (Host), phage lifestyle (Lifestyle), cluster ID (Cluster), subcluster ID (Subcluster), and the phage source dataset (Phage\_source).
+The metadata for all the 873,718 phages. Each row gives the information for a phage; The columns give information about phage ID (Phage\_ID), phage genome length (Length), phage GC content (GC\_content), the taxonomy (Taxonomy), genome completeness (Completeness), phage host taxonomy (Host), phage lifestyle (Lifestyle), cluster ID (Cluster), subcluster ID (Subcluster), and the phage source dataset (Phage\_source).
 + ``RefSeq Phage Meta Data``: The metadata for the 4,637 phages from RefSeq. 
 + ``Genbank Phage Meta Data``: The metadata for the 2,086 phages from Genbank. 
 + ``EMBL Phage Meta Data``: The metadata for the 156 phages from EMBL. 
@@ -35,7 +35,7 @@ PhageScope also provides a batch download interface for users to retrieve data, 
 + ``STV Phage Meta Data``: The metadata for the 4,065 phages from STV. 
 
 #### Annotated protein meta data download
-+ ``All Phage Annotated Protein Meta Data``: The metadata for all the 43,088,582 annotated proteins. Each row gives the information for a protein; The columns give information about phage ID (Phage\_ID), the protein source (Protein\_source), the annotation source (Function\_prediction\_source), the protein start site on the genome (Start), the protein stop site on the genome(Stop), the strand encoding the protein (Strand), protein ID (Protein\_ID), protein product (Product), protein classification with keyword search (Protein\_classification), the molecular mass of protein (Molecular\_weight), the aromaticity value (Aromaticity), the instability index (Instability\_index), the isoelectric point (Isoelectric\_point), the fraction of helix (Helix\_fraction), the fraction of turn (Turn\_fraction), the fraction of sheet (Sheet\_fraction), the molar extinction coefficient assuming cysteines reduced (Reduced\_coefficient), the molar extinction coefficient assuming cystines residues Cys-Cys-bond (Oxidized\_coefficient), and the phage source dataset (Phage\_source).
+The metadata for all the 43,088,582 annotated proteins. Each row gives the information for a protein; The columns give information about phage ID (Phage\_ID), the protein source (Protein\_source), the annotation source (Function\_prediction\_source), the protein start site on the genome (Start), the protein stop site on the genome(Stop), the strand encoding the protein (Strand), protein ID (Protein\_ID), protein product (Product), protein classification with keyword search (Protein\_classification), the molecular mass of protein (Molecular\_weight), the aromaticity value (Aromaticity), the instability index (Instability\_index), the isoelectric point (Isoelectric\_point), the fraction of helix (Helix\_fraction), the fraction of turn (Turn\_fraction), the fraction of sheet (Sheet\_fraction), the molar extinction coefficient assuming cysteines reduced (Reduced\_coefficient), the molar extinction coefficient assuming cystines residues Cys-Cys-bond (Oxidized\_coefficient), and the phage source dataset (Phage\_source).
 + ``RefSeq Phage Annotated Protein Meta Data``: The metadata for the 481,897 annotated proteins from RefSeq.
 + ``Genbank Phage Annotated Protein Meta Data``: The metadata for the 217,870 annotated proteins from Genbank.
 + ``EMBL Phage Annotated Protein Meta Data``: The metadata for the 11,116 annotated proteins from EMBL.
@@ -52,7 +52,7 @@ PhageScope also provides a batch download interface for users to retrieve data, 
 + ``STV Phage Annotated Protein Meta Data``: The metadata for the 151,993 annotated proteins from STV.
 
 #### Transcription terminator meta data download
-+ ``All Phage Transcription Terminator Meta Data``: The metadata for all the 6,462,417 transcription terminators. Each row gives the information for a transcription terminator; The columns give information about phage ID (Phage\_ID), transcription terminator (Terminator), the terminator start site on the genome (Start), the terminator stop site on the genome (Stop), strand sense (Sense), type of region the terminator is in (Loc) ('G' = in the interior of a gene (at least 50bp from an end), 'F' = between two +strand genes, 'R' = between two -strand genes, 'T' = between the ends of a +strand gene and a -strand gene, 'H' = between the starts of a +strand gene and a -strand gene, 'N' = none of the above (for the start and end of the DNA)), confidence score (Confidence), and the phage source dataset (Phage\_source).
+The metadata for all the 6,462,417 transcription terminators. Each row gives the information for a transcription terminator; The columns give information about phage ID (Phage\_ID), transcription terminator (Terminator), the terminator start site on the genome (Start), the terminator stop site on the genome (Stop), strand sense (Sense), type of region the terminator is in (Loc) ('G' = in the interior of a gene (at least 50bp from an end), 'F' = between two +strand genes, 'R' = between two -strand genes, 'T' = between the ends of a +strand gene and a -strand gene, 'H' = between the starts of a +strand gene and a -strand gene, 'N' = none of the above (for the start and end of the DNA)), confidence score (Confidence), and the phage source dataset (Phage\_source).
 + ``RefSeq Phage Transcription Terminator Meta Data``: The metadata for the 68,049 transcription terminators from RefSeq.
 + ``Genbank Phage Transcription Terminator Meta Data``: The metadata for the 27,598 transcription terminators from Genbank.
 + ``EMBL Phage Transcription Terminator Meta Data``: The metadata for the 1,728 transcription terminators from EMBL.
@@ -69,7 +69,7 @@ PhageScope also provides a batch download interface for users to retrieve data, 
 + ``STV Phage Transcription Terminator Meta Data``: The metadata for the 8,874 transcription terminators from STV.
 
 #### tRNA & tmRNA gene meta data download
-+ ``All Phage tRNA & tmRNA Gene Meta Data``: The metadata for all the 1,298,181 tRNA & tmRNA genes predicted with Aragorn and tRNAscan-SE. Each row gives the information for a t(m)RNA gene; The columns give information about the phage ID (Phage\_ID), t(m)RNA ID (t(m)RNA\_ID), the binding amino acid (t(m)RNA), the t(m)RNA start site on the genome (Start), the t(m)RNA stop site on the genome (Stop), the strand (Strand), the length of t(m)RNA (Length), the permuted information (Permuted), the t(m)RNA sequence (Sequence), and the phage source dataset (Phage\_source).
+The metadata for all the 1,298,181 tRNA & tmRNA genes predicted with Aragorn and tRNAscan-SE. Each row gives the information for a t(m)RNA gene; The columns give information about the phage ID (Phage\_ID), t(m)RNA ID (t(m)RNA\_ID), the binding amino acid (t(m)RNA), the t(m)RNA start site on the genome (Start), the t(m)RNA stop site on the genome (Stop), the strand (Strand), the length of t(m)RNA (Length), the permuted information (Permuted), the t(m)RNA sequence (Sequence), and the phage source dataset (Phage\_source).
 + ``RefSeq Phage tRNA & tmRNA Gene Meta Data``: The metadata for the 25,612 tRNA & tmRNA genes from RefSeq.
 + ``Genbank Phage tRNA & tmRNA Gene Meta Data``: The metadata for the 9,782 tRNA & tmRNA genes from Genbank.
 + ``EMBL Phage tRNA & tmRNA Gene Meta Data``: The metadata for the 559 tRNA & tmRNA genes from EMBL.
@@ -86,7 +86,7 @@ PhageScope also provides a batch download interface for users to retrieve data, 
 + ``STV Phage tRNA & tmRNA Gene Meta Data``: The metadata for the 4,844 tRNA & tmRNA genes from STV.
 
 #### Anti-CRISPR protein meta data download
-+ ``All Phage Anti-CRISPR Protein Meta Data``: The metadata for all the 307,329 anti-CRISPR proteins. Each row gives the information for an anti-CRISPR protein; The columns give information about the phage ID (Phage\_ID), protein ID (Protein\_ID), annotation source (Source), and the phage source dataset (Phage\_source).
+The metadata for all the 307,329 anti-CRISPR proteins. Each row gives the information for an anti-CRISPR protein; The columns give information about the phage ID (Phage\_ID), protein ID (Protein\_ID), annotation source (Source), and the phage source dataset (Phage\_source).
 + ``RefSeq Phage Anti-CRISPR Protein Meta Data``: The metadata for the 115,583 anti-CRISPR proteins from RefSeq.
 + ``Genbank Phage Anti-CRISPR Protein Meta Data``: The metadata for the 54,816 anti-CRISPR proteins from Genbank.
 + ``EMBL Phage Anti-CRISPR Protein Meta Data``: The metadata for the 2,807 anti-CRISPR proteins from EMBL.
@@ -103,7 +103,7 @@ PhageScope also provides a batch download interface for users to retrieve data, 
 + ``STV Phage Anti-CRISPR Protein Meta Data``: The metadata for the 589 anti-CRISPR proteins from STV.
 
 #### CRISPR array meta data download
-+ ``All Phage CRISPR Array Meta Data``: The metadata for all the 56,652 CRISPR arrays. Each row gives the information for a CRISPR array; The columns give information about the Phage\_ID, Duplicated\_Spacers, CRISPR\_ID, CRISPR\_Start, CRISPR\_End, CRISPR\_Length, Potential\_Orientation (AT%), CRISPRDirection Consensus\_Repeat, Repeat\_ID (CRISPRdb), Nb\_CRISPRs\_with\_same\_Repeat (CRISPRdb), Repeat\_Length, Spacers\_Nb, Mean\_size\_Spacers, Standard\_Deviation\_Spacers, Nb\_Repeats\_matching\_Consensus, Ratio\_Repeats\_match/TotalRepeat, Conservation\_Repeats (% identity), EBcons\_Repeats, Conservation\_Spacers (% identity), EBcons\_Spacers  Repeat\_Length\_plus\_mean\_size\_Spacers, Ratio\_Repeat/mean\_Spacers\_Length, CRISPR\_found\_in\_DB (if sequence IDs are similar), Evidence\_Level, and Phage\_source.
+The metadata for all the 56,652 CRISPR arrays. Each row gives the information for a CRISPR array; The columns give information about the Phage\_ID, Duplicated\_Spacers, CRISPR\_ID, CRISPR\_Start, CRISPR\_End, CRISPR\_Length, Potential\_Orientation (AT%), CRISPRDirection Consensus\_Repeat, Repeat\_ID (CRISPRdb), Nb\_CRISPRs\_with\_same\_Repeat (CRISPRdb), Repeat\_Length, Spacers\_Nb, Mean\_size\_Spacers, Standard\_Deviation\_Spacers, Nb\_Repeats\_matching\_Consensus, Ratio\_Repeats\_match/TotalRepeat, Conservation\_Repeats (% identity), EBcons\_Repeats, Conservation\_Spacers (% identity), EBcons\_Spacers  Repeat\_Length\_plus\_mean\_size\_Spacers, Ratio\_Repeat/mean\_Spacers\_Length, CRISPR\_found\_in\_DB (if sequence IDs are similar), Evidence\_Level, and Phage\_source.
 + ``RefSeq Phage CRISPR Array Meta Data``: The metadata for the 523 CRISPR arrays from RefSeq. 
 + ``Genbank Phage CRISPR Array Meta Data``: The metadata for the 245 CRISPR arrays from Genbank. 
 + ``EMBL Phage CRISPR Array Meta Data``: The metadata for the 17 CRISPR arrays from EMBL. 
@@ -120,7 +120,7 @@ PhageScope also provides a batch download interface for users to retrieve data, 
 + ``STV Phage CRISPR Array Meta Data``: The metadata for the 162 CRISPR arrays from STV. 
 
 #### Virulent factor meta data download
-+ ``All Phage Virulent Factor Meta Data``: The metadata for all the 41,609 virulent factors. Each row gives the information for a virulent factor; The columns give information about the phage ID (Phage\_ID), protein ID (Protein\_ID), aligned protein ID in VFDB (Aligned\_Protein\_in\_VFDB), and the phage source dataset (Phage\_source)..
+The metadata for all the 41,609 virulent factors. Each row gives the information for a virulent factor; The columns give information about the phage ID (Phage\_ID), protein ID (Protein\_ID), aligned protein ID in VFDB (Aligned\_Protein\_in\_VFDB), and the phage source dataset (Phage\_source)..
 + ``RefSeq Phage Virulent Factor Meta Data``: The metadata for the 276 virulent factors from RefSeq.
 + ``Genbank Phage Virulent Factor Meta Data``: The metadata for the 83 virulent factors from Genbank.
 + ``EMBL Phage Virulent Factor Meta Data``: The metadata for the 11 virulent factors from EMBL.
@@ -135,7 +135,7 @@ PhageScope also provides a batch download interface for users to retrieve data, 
 + ``GOV2 Phage Virulent Factor Meta Data``: The metadata for the 10 virulent factors from GOV2.
 
 #### Antimicrobial resistance gene meta data download
-+ ``All Phage Antimicrobial Resistance Gene Meta Data``: The metadata for all the 2,602 antimicrobial resistance genes. Each row gives the information for an antimicrobial resistance gene; The columns give information about the phage ID (Phage\_ID), protein ID (Protein\_ID), aligned protein ID in CARD (Aligned\_Protein\_in\_CARD), and the phage source dataset (Phage\_source).
+The metadata for all the 2,602 antimicrobial resistance genes. Each row gives the information for an antimicrobial resistance gene; The columns give information about the phage ID (Phage\_ID), protein ID (Protein\_ID), aligned protein ID in CARD (Aligned\_Protein\_in\_CARD), and the phage source dataset (Phage\_source).
 + ``RefSeq Phage Antimicrobial Resistance Gene Meta Data``: The metadata for the 10 antimicrobial resistance genes from RefSeq.
 + ``Genbank Phage Antimicrobial Resistance Gene Meta Data``: The metadata for the 7 antimicrobial resistance genes from Genbank.
 + ``GVD Phage Antimicrobial Resistance Gene Meta Data``: The metadata for the 35 antimicrobial resistance genes from GVD.
@@ -148,7 +148,7 @@ PhageScope also provides a batch download interface for users to retrieve data, 
 + ``GOV2 Phage Antimicrobial Resistance Gene Meta Data``: The metadata for the 1 antimicrobial resistance genes from GOV2.
 
 #### Transmembrane protein meta data download
-+ ``All Phage Transmembrane Protein Meta Data``: The metadata for all the 4,020,770 transmembrane proteins. Each row gives the information for a transmembrane protein; The columns give information about the phage ID (Phage\_ID), protein ID (Protein\_ID), protein length (Length), the number of predicted transmembrane helices (PredictedTMHsNumber), the expected number of amino acids intransmembrane helices (ExpnumberofAAsinTMHs), the expected number of amino acids in transmembrane helices in the first 60 amino acids of the protein (Expnumberfirst60AAs), the total probability that the N-term is on the cytoplasmic side of the membrane (TotalprobofNin), a warning that is produced when "Exp number, first 60 AAs" is larger than 10 (POSSIBLENterm), Insidesource, Insidestart, Insideend, TMhelixsource, TMhelixstart, TMhelixend, Outsidesource, Outsidestart, Outsideend, and the phage source dataset (Phage\_source).
+The metadata for all the 4,020,770 transmembrane proteins. Each row gives the information for a transmembrane protein; The columns give information about the phage ID (Phage\_ID), protein ID (Protein\_ID), protein length (Length), the number of predicted transmembrane helices (PredictedTMHsNumber), the expected number of amino acids intransmembrane helices (ExpnumberofAAsinTMHs), the expected number of amino acids in transmembrane helices in the first 60 amino acids of the protein (Expnumberfirst60AAs), the total probability that the N-term is on the cytoplasmic side of the membrane (TotalprobofNin), a warning that is produced when "Exp number, first 60 AAs" is larger than 10 (POSSIBLENterm), Insidesource, Insidestart, Insideend, TMhelixsource, TMhelixstart, TMhelixend, Outsidesource, Outsidestart, Outsideend, and the phage source dataset (Phage\_source).
 + ``RefSeq Phage Transmembrane Protein Meta Data``: The metadata for the 43,567 transmembrane proteins from RefSeq. 
 + ``Genbank Phage Transmembrane Protein Meta Data``: The metadata for the 20,549 transmembrane proteins from Genbank. 
 + ``EMBL Phage Transmembrane Protein Meta Data``: The metadata for the 1,023 transmembrane proteins from EMBL. 
